@@ -1,3 +1,18 @@
+## SIFT.py
+- This code will calc the difference between the images, after the code read all the images matrix one by one the function findSimilarities will apply the sift method saving all images that dont repeat it self and discard the rest.
+
+### Requirements
+- Python 2.7
+- pip install opencv-python==3.4.2.16
+- pip install opencv-contrib-python==3.4.2.16
+- pip install termcolor
+
+### Optionals
+- Change the variable **frame_start** to start the video in a specific frame.
+- Change the variable **IMAGE_DIR** to point your video path.
+- Change the variable **folderTosave** to point to folder that save the frames.
+- Change the variable **thresholdDifference** to change the minimum threshold at compare two frames.
+
 ## differenceBetweenImages.py
 - Calc the difference between two frames, and save the next frame that difference is less than a threshold
 
