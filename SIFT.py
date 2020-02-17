@@ -64,8 +64,6 @@ def main():
             if not ret.any():
                 break
             frameCompare = cap[yframeFrom:yframeTo,xFrameFrom:xFrameTo]
-            #if u wanna see what frames r being compared
-            #uncommente the lines below
             #cv2.imshow("Original", frameOriginal)
             #cv2.imshow("Comparacao",frameCompare)
             #cv2.waitKey(0)
