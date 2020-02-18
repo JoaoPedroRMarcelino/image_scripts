@@ -1,5 +1,5 @@
 ## SIFT.py
-- This code will calc the difference between the images, after the code read all the images matrix one by one the function findSimilarities will apply the sift method saving all images that dont repeat it self and discard the rest.
+- This code will calc the difference between the images and read all the images matrix one by one, the function findSimilarities will apply the sift method saving all images that dont repeat it self and discard the rest.
 
 ### Requirements
 - Python 2.7
